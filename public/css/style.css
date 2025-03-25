@@ -394,7 +394,7 @@ body {
     margin: 0;
     margin-bottom: 2vw;
     text-align: center;
-    font-size: 2vw;
+    font-size: 4vw;
   }
   section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > form {
   }
@@ -403,7 +403,7 @@ body {
     > div:nth-of-type(2)
     > form
     > label {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     width: 4vw;
     height: 8vh;
     opacity: 0.5;
@@ -415,7 +415,7 @@ body {
     > input {
     width: 30vw;
     height: 5vh;
-    font-size: 1.5vw;
+    font-size: 3vw;
     margin-bottom: 2vw;
     border-top: none;
     border-left: none;
@@ -428,12 +428,12 @@ body {
     > form
     > input:nth-of-type(4) {
     background-color: #dc3544;
-    width: 4.5vw;
-    height: 5.5vh;
+    width: 10vw;
+    height: 6vh;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 1vw;
+    font-size: 2.5vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -445,6 +445,8 @@ body {
     border-right: none;
     border-bottom: 1px solid #1a252e1f;
     margin-bottom: 25px;
+    margin-left: 1vw;
+    width: 30vw;
   }
   /* FOOTER */
   footer {
