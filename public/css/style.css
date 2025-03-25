@@ -267,9 +267,16 @@ body {
     padding: 0;
     background-color: #1a252e;
   }
-  section:nth-of-type(5) > p {
+  section:nth-of-type(5) > div > p {
     margin: 0;
     padding: 0;
     color: white;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+  }
+  section:nth-of-type(5) > div {
+    display: flex;
+    justify-content: center;
   }
 }
