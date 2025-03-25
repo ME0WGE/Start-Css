@@ -352,15 +352,15 @@ body {
   }
   section:nth-of-type(2) > div:nth-of-type(1) {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   .portfolioImg1,
   .portfolioImg2 {
-    width: 37vw;
+    width: 80vw;
   }
   .portfolioImg1 > img,
   .portfolioImg2 > img {
-    width: 12vw;
+    width: 15vw;
     border-radius: 5px;
   }
   /* SECTION 3 */
@@ -374,14 +374,14 @@ body {
   }
   section:nth-of-type(3) > div > div > h2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 7vw;
   }
   section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
-    margin-right: 33vw;
-    margin-left: 33vw;
+    margin-right: 13vw;
+    margin-left: 13vw;
     gap: 3vw;
-    font-size: 1vw;
+    font-size: 2vw;
   }
   /* SECTION 4 */
   section:nth-of-type(4) {
