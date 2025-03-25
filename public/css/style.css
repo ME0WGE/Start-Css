@@ -82,7 +82,12 @@ body {
   }
   .portfolioImg1 > img,
   .portfolioImg2 > img {
-    width: 20vw;
+    width: 15vw;
   }
   /* SECTION 3 */
+  section:nth-of-type(3) {
+    background-color: #dc3544;
+    height: 40vh;
+    color: white;
+  }
 }
