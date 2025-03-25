@@ -90,4 +90,9 @@ body {
     height: 40vh;
     color: white;
   }
+  /* SECTION 4 */
+  section:nth-of-type(4) {
+    height: 75vh;
+  }
+  
 }
