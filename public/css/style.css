@@ -138,10 +138,37 @@ body {
     gap: 3vw;
     font-size: 1vw;
   }
-
   /* SECTION 4 */
   section:nth-of-type(4) {
-    height: 75vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2 {
+    margin: 0;
+    text-align: center;
+  }
+  section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > form {
+    background-color: beige;
+  }
+  section:nth-of-type(4)
+    > div:nth-of-type(1)
+    > div:nth-of-type(2)
+    > form
+    > label {
+    background-color: purple;
+    font-size: 1.5vw;
+    width: 4vw;
+    height: 8vh;
+  }
+  section:nth-of-type(4)
+    > div:nth-of-type(1)
+    > div:nth-of-type(2)
+    > form
+    > input {
+    width: 30vw;
+    margin-bottom: 2vw;
   }
   /* FOOTER */
   footer {
