@@ -76,4 +76,13 @@ body {
   section:nth-of-type(1) > p:nth-of-type(1) {
   }
   /* SECTION 2 */
+  section:nth-of-type(2) {
+    background-color: white;
+    height: 50vh;
+  }
+  .portfolioImg1 > img,
+  .portfolioImg2 > img {
+    width: 20vw;
+  }
+  /* SECTION 3 */
 }
