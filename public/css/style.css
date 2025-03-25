@@ -44,6 +44,7 @@ body {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    color: white;
   }
   nav > div:nth-of-type(1) {
   }
@@ -55,4 +56,24 @@ body {
     flex-direction: row;
     /* justify-content: center; */
   }
+  /* 
+|---------------------------------------------------------------|
+|                             CONTENT                           |
+|---------------------------------------------------------------|
+*/
+  /* SECTION 1 */
+  section:nth-of-type(1) {
+    background-color: #dc3544;
+    height: 50vh;
+    color: white;
+    display: block;
+  }
+  #avatar {
+    width: 15vw;
+  }
+  section:nth-of-type(1) > h1:nth-of-type(1) {
+  }
+  section:nth-of-type(1) > p:nth-of-type(1) {
+  }
+  /* SECTION 2 */
 }
