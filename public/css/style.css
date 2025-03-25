@@ -36,19 +36,19 @@ body {
   }
   nav > div:nth-of-type(1) {
     display: flex;
-    gap: 30vw;
+    gap: 20vw;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
     flex: 1;
-    font-size: 1rem;
+    font-size: 3vw;
     font-weight: bold;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
     align-items: center;
-    font-size: 2vw;
-    gap: 3rem;
+    font-size: 2.5vw;
+    gap: 10vw;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) > p > a {
     text-decoration: none;
@@ -62,7 +62,7 @@ body {
   /* SECTION 1 */
   section:nth-of-type(1) {
     background-color: #dc3544;
-    height: 50vh;
+    height: 85vh;
     color: white;
   }
   section:nth-of-type(1) > div:nth-of-type(1) {
@@ -70,8 +70,8 @@ body {
     text-align: center;
   }
   #avatar > img {
-    width: 20vw;
-    margin-top: 8vh;
+    width: 45vw;
+    margin-top: 40vh;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
@@ -87,28 +87,28 @@ body {
   section:nth-of-type(2) {
     display: flex;
     background-color: white;
-    height: 90vh;
+    height: 50vh;
     justify-content: center;
     align-items: center;
   }
   section:nth-of-type(2) > div:nth-of-type(1) {
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
   }
   .portfolioImg1,
   .portfolioImg2 {
-    width: 50vw;
+    width: 97vw;
   }
   .portfolioImg1 > img,
   .portfolioImg2 > img {
-    width: 14vw;
+    width: 25vw;
     border-radius: 5px;
     margin: 5px;
   }
   /* SECTION 3 */
   section:nth-of-type(3) {
     background-color: #dc3544;
-    height: 65vh;
+    height: 50vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -120,10 +120,10 @@ body {
   }
   section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
-    margin-right: 13vw;
-    margin-left: 13vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
     gap: 3vw;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   /* SECTION 4 */
   section:nth-of-type(4) {
@@ -134,11 +134,9 @@ body {
   }
   section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2 {
     margin: 0;
-    margin-bottom: 2vw;
+    margin-bottom: 10vw;
     text-align: center;
-    font-size: 3vw;
-  }
-  section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > form {
+    font-size: 5vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -149,7 +147,6 @@ body {
     width: 4vw;
     height: 8vh;
     opacity: 0.5;
-    margin-left: 7vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -158,13 +155,12 @@ body {
     > input {
     width: 60vw;
     height: 5vh;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 2vw;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #1a252e1f;
-    margin-left: 7vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -172,13 +168,12 @@ body {
     > form
     > input:nth-of-type(4) {
     background-color: #dc3544;
-    width: 10vw;
-    height: 6vh;
+    width: 15vw;
+    height: 5vh;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 2vw;
-    margin-left: 7vw;
+    font-size: 4vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -190,7 +185,6 @@ body {
     border-right: none;
     border-bottom: 1px solid #1a252e1f;
     margin-bottom: 25px;
-    margin-left: 7vw;
     width: 60vw;
   }
   /* FOOTER */
@@ -208,7 +202,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 2vw;
+    font-size: 2.5vw;
   }
   footer > div:nth-of-type(1) > div:nth-of-type(2) {
     display: block;
@@ -220,10 +215,10 @@ body {
   }
   i {
     margin-top: 1vw;
-    font-size: 2vw;
+    font-size: 3vw;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
   }
   footer
     > div:nth-of-type(1)
@@ -240,7 +235,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
   }
   footer > div > div > div > p {
