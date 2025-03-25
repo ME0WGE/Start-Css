@@ -227,7 +227,8 @@ body {
     justify-content: space-evenly;
   }
   i {
-    font-size: 1.5vw;
+    margin-top: 1vw;
+    font-size: 1vw;
     border: 2px solid white;
     border-radius: 50%;
     padding: 15px;
@@ -237,12 +238,29 @@ body {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 1vw;
-    font-size: 2vw;
+    margin-bottom: 0;
+    font-size: 1.5vw;
     text-align: center;
   }
   footer > div > div > div > p {
+    margin: 0;
+    padding-top: 1vw;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     text-align: center;
+  }
+  footer > div:nth-of-type(1) > div:nth-of-type(3) {
+    width: 17vw;
+  }
+  footer
+    > div:nth-of-type(1)
+    > div:nth-of-type(3)
+    > div:nth-of-type(1)
+    > p
+    > a {
+    text-decoration: none;
+    color: #1c926b;
   }
   section:nth-of-type(5) {
     margin: 0;
