@@ -147,13 +147,14 @@ body {
     width: 4vw;
     height: 8vh;
     opacity: 0.5;
+    margin-left: 7vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
     > div:nth-of-type(2)
     > form
     > input {
-    width: 30vw;
+    width: 60vw;
     height: 5vh;
     font-size: 1.5vw;
     margin-bottom: 2vw;
@@ -161,6 +162,7 @@ body {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #1a252e1f;
+    margin-left: 7vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -168,12 +170,13 @@ body {
     > form
     > input:nth-of-type(4) {
     background-color: #dc3544;
-    width: 4.5vw;
-    height: 5.5vh;
+    width: 10vw;
+    height: 6vh;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 1vw;
+    font-size: 2vw;
+    margin-left: 7vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -185,6 +188,8 @@ body {
     border-right: none;
     border-bottom: 1px solid #1a252e1f;
     margin-bottom: 25px;
+    margin-left: 7vw;
+    width: 60vw;
   }
   /* FOOTER */
   footer {
