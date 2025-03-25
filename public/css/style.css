@@ -70,7 +70,8 @@ body {
     text-align: center;
   }
   #avatar > img {
-    width: 13vw;
+    width: 20vw;
+    margin-top: 8vh;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
