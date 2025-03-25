@@ -560,6 +560,7 @@ body {
     font-weight: bold;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
+    margin-left: 10vw;
     display: flex;
     align-items: center;
     font-size: 1.5vw;
@@ -585,7 +586,7 @@ body {
     text-align: center;
   }
   #avatar > img {
-    width: 13vw;
+    width: 35vw;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
@@ -607,15 +608,15 @@ body {
   }
   section:nth-of-type(2) > div:nth-of-type(1) {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
   .portfolioImg1,
   .portfolioImg2 {
-    width: 37vw;
+    width: 98vw;
   }
   .portfolioImg1 > img,
   .portfolioImg2 > img {
-    width: 12vw;
+    width: 20vw;
     border-radius: 5px;
   }
   /* SECTION 3 */
@@ -629,14 +630,14 @@ body {
   }
   section:nth-of-type(3) > div > div > h2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 5vw;
   }
   section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
-    margin-right: 33vw;
-    margin-left: 33vw;
+    margin-right: 13vw;
+    margin-left: 13vw;
     gap: 3vw;
-    font-size: 1vw;
+    font-size: 2vw;
   }
   /* SECTION 4 */
   section:nth-of-type(4) {
@@ -649,7 +650,7 @@ body {
     margin: 0;
     margin-bottom: 2vw;
     text-align: center;
-    font-size: 2vw;
+    font-size: 5vw;
   }
   section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > form {
   }
@@ -658,7 +659,7 @@ body {
     > div:nth-of-type(2)
     > form
     > label {
-    font-size: 1.5vw;
+    font-size: 2vw;
     width: 4vw;
     height: 8vh;
     opacity: 0.5;
@@ -668,9 +669,9 @@ body {
     > div:nth-of-type(2)
     > form
     > input {
-    width: 30vw;
+    width: 60vw;
     height: 5vh;
-    font-size: 1.5vw;
+    font-size: 3vw;
     margin-bottom: 2vw;
     border-top: none;
     border-left: none;
@@ -683,12 +684,12 @@ body {
     > form
     > input:nth-of-type(4) {
     background-color: #dc3544;
-    width: 4.5vw;
-    height: 5.5vh;
+    width: 9vw;
+    height: 5vh;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 1vw;
+    font-size: 2.5vw;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -716,7 +717,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap: 8vw;
+    font-size: 1.5vw;
   }
   footer > div:nth-of-type(1) > div:nth-of-type(2) {
     display: block;
@@ -728,10 +730,10 @@ body {
   }
   i {
     margin-top: 1vw;
-    font-size: 1vw;
+    font-size: 2vw;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
   }
   footer > div > div > h3 {
     padding: 0;
@@ -739,7 +741,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-    font-size: 1.5vw;
+    font-size: 3vw;
     text-align: center;
   }
   footer > div > div > div > p {
@@ -751,7 +753,7 @@ body {
     text-align: center;
   }
   footer > div:nth-of-type(1) > div:nth-of-type(3) {
-    width: 17vw;
+    width: 30vw;
   }
   footer
     > div:nth-of-type(1)
@@ -774,6 +776,7 @@ body {
     height: 8vh;
     display: flex;
     align-items: center;
+    font-size: 1.5vw;
   }
   section:nth-of-type(5) > div {
     display: flex;
