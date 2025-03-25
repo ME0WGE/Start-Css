@@ -414,7 +414,7 @@ body {
     > div:nth-of-type(2)
     > form
     > input {
-    width: 30vw;
+    width: 50vw;
     height: 5vh;
     font-size: 3vw;
     margin-bottom: 2vw;
@@ -447,7 +447,7 @@ body {
     border-bottom: 1px solid #1a252e1f;
     margin-bottom: 25px;
     margin-left: 1vw;
-    width: 30vw;
+    width: 50vw;
   }
   /* FOOTER */
   footer {
