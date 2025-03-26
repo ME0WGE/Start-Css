@@ -173,9 +173,38 @@ nav > div > i {
     display: block;
     text-align: center;
   }
+  /* Copy this code after the above code */
+  @keyframes heartBeat {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
   #avatar > img {
     width: 45vw;
     margin-top: 25vh;
+    animation: heartBeat 2s linear 0s infinite normal none;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
@@ -461,9 +490,38 @@ nav > div > i {
     display: block;
     text-align: center;
   }
+  @keyframes heartBeat {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
+
   #avatar > img {
     margin-top: 15vw;
     width: 45vw;
+    animation: heartBeat 2s linear 0s infinite normal none;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
@@ -749,9 +807,37 @@ nav > div > i {
     display: block;
     text-align: center;
   }
+  @keyframes heartBeat {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
   #avatar > img {
     margin-top: 1vw;
     width: 35vw;
+    animation: heartBeat 2s linear 0s infinite normal none;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
@@ -1037,9 +1123,37 @@ nav > div > i {
     display: block;
     text-align: center;
   }
+  @keyframes heartBeat {
+    0% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+      transform-origin: center center;
+    }
+
+    10% {
+      animation-timing-function: ease-in;
+      transform: scale(0.91);
+    }
+
+    17% {
+      animation-timing-function: ease-out;
+      transform: scale(0.98);
+    }
+
+    33% {
+      animation-timing-function: ease-in;
+      transform: scale(0.87);
+    }
+
+    45% {
+      animation-timing-function: ease-out;
+      transform: scale(1);
+    }
+  }
   #avatar > img {
     margin-top: 1vw;
     width: 17vw;
+    animation: heartBeat 2s linear 0s infinite normal none;
   }
   section:nth-of-type(1)
     > div:nth-of-type(1)
