@@ -72,12 +72,31 @@ nav > div > i {
     color: white;
     display: none;
   }
+  
+  @keyframes glow {
+    0% {
+      filter: drop-shadow(-10px -10px 10px rgb(0, 140, 255));
+    }
+    25% {
+      filter: drop-shadow(10px -10px 10px rgb(51, 255, 0));
+    }
+    50% {
+      filter: drop-shadow(10px -10px -10px rgb(238, 255, 0));
+    }
+    75% {
+      filter: drop-shadow(10px 10px 10px rgb(255, 0, 0));
+    }
+    100% {
+      filter: drop-shadow(-10px 10px 10px rgb(162, 0, 255));
+    }
+  }
   nav > div > i {
     border: none;
     font-size: 6vw;
     visibility: visible;
     padding-top: 1vw;
     transition: 250ms ease-in-out;
+    animation: glow 1s ease 0.5s infinite forwards;
   }
   nav > div > i:active {
     border: 3px solid #dc3544;
