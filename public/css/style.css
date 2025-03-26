@@ -76,6 +76,8 @@ nav > div > i {
     border: none;
     font-size: 6vw;
     visibility: visible;
+    padding-top: 1vw;
+    transition: 250ms ease-in-out;
   }
   nav > div > i:active {
     border: 3px solid #dc3544;
