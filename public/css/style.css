@@ -90,7 +90,7 @@ nav > div > i {
       filter: drop-shadow(-10px 10px 10px rgb(162, 0, 255));
     }
   }
-  /* @keyframes bounce {
+  @keyframes bounce {
     0% {
       transform: translateY(0px);
     }
@@ -106,7 +106,7 @@ nav > div > i {
     100% {
       transform: translateY(0px);
     }
-  } */
+  }
   nav > div > i {
     border: none;
     font-size: 6vw;
@@ -122,6 +122,10 @@ nav > div > i {
   nav > div > i:active {
     border: 3px solid #dc3544;
     padding: 2vw;
+  }
+  nav > div > i:hover {
+    transition: 1s ease-in-outs;
+    animation: bounce 3s ease 0.5s infinite forwards;
   }
   /* 
 |---------------------------------------------------------------|
