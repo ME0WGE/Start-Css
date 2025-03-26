@@ -42,7 +42,7 @@ nav > div > i {
     margin: 0;
     padding: 0;
     background-color: #2c3e50;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -166,7 +166,7 @@ nav > div > i {
   /* SECTION 1 */
   section:nth-of-type(1) {
     background-color: #dc3544;
-    height: 66vh;
+    height: 45vh;
     color: white;
   }
   section:nth-of-type(1) > div:nth-of-type(1) {
@@ -203,7 +203,7 @@ nav > div > i {
   }
   #avatar > img {
     width: 45vw;
-    margin-top: 25vh;
+    margin-top: 5vh;
     animation: heartBeat 2s linear 0s infinite normal none;
   }
   section:nth-of-type(1)
