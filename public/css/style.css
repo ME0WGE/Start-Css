@@ -1,4 +1,13 @@
 /* 
+## Bonus Start CSS ->  En plus du Responsive...
+### Bonus 1)
+Au passage vers le format Mobile, la navbar disparait et est remplacée par un bouton burger. Le bouton doit être parfaitement stylisé (voir ce qui existe ailleurs..), il ne doit pas être fonctionnel mais il doit parfaitement s'intégrer au design, placé à un endroit judicieux pour le format. 
+### Bonus 2) 
+La navbar et le bouton apparaissent /disparaissent proprement avec une transition
+### Bonus 3)
+Ajouter une animation légère de glow et de bounce sur le bouton burger . Ajouter 2 autres animations au choix sur la page
+*/
+/* 
 navbar - footer: background-color: #2C3E50;
 section 1-3: background-color: #DC3544;
 section 2-4: background-color #FFFFFE;
@@ -14,6 +23,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: Montserrat;
+}
+nav > div > i {
+  display: none;
+  border: none;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
 }
 /* Écrans téléphone */
 @media (width <= 576px) {
@@ -34,9 +50,14 @@ body {
     color: white;
     justify-content: center;
   }
+  nav > div > i {
+    border: none;
+    font-size: 6vw;
+    visibility: visible;
+  }
   nav > div:nth-of-type(1) {
     display: flex;
-    gap: 20vw;
+    gap: 60vw;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
@@ -49,10 +70,12 @@ body {
     align-items: center;
     font-size: 2.5vw;
     gap: 10vw;
+    display: none;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) > p > a {
     text-decoration: none;
     color: white;
+    display: none;
   }
   /* 
 |---------------------------------------------------------------|
@@ -296,7 +319,7 @@ body {
   }
   nav > div:nth-of-type(1) {
     display: flex;
-    gap: 15vw;
+    gap: 10vw;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
@@ -312,7 +335,7 @@ body {
     margin-left: 20vw;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) > p > a {
-    margin-right: 3vw;
+    /* margin-right: 0vw; */
     text-decoration: none;
     color: white;
   }
@@ -558,7 +581,7 @@ body {
   }
   nav > div:nth-of-type(1) {
     display: flex;
-    gap: 30vw;
+    gap: 10vw;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
@@ -816,7 +839,7 @@ body {
   }
   nav > div:nth-of-type(1) {
     display: flex;
-    gap: 45vw;
+    gap: 25vw;
     position: absolute;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
