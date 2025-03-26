@@ -90,7 +90,7 @@ nav > div > i {
       filter: drop-shadow(-10px 10px 10px rgb(162, 0, 255));
     }
   }
-  @keyframes bounce {
+  /* @keyframes bounce {
     0% {
       transform: translateY(5px);
     }
@@ -99,12 +99,27 @@ nav > div > i {
     }
     50% {
       transform: translateY(10px);
+      transform: rotateX(45deg);
     }
     75% {
       transform: translateY(-5px);
+      transform: rotateX(45deg);
     }
     100% {
       transform: translateY(5px);
+    }
+  } */
+  @keyframes bounce {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+      
+    }
+    100% {
+      transform: translateY(-20px);
+      transform: rotateX(45deg);
     }
   }
   nav > div > i {
@@ -125,7 +140,7 @@ nav > div > i {
   }
   nav > div > i:hover {
     transition: 1s ease-in-outs;
-    animation: bounce 3s ease 0.5s infinite forwards;
+    animation: bounce 1s ease 0.5s infinite forwards;
   }
   /* 
 |---------------------------------------------------------------|
