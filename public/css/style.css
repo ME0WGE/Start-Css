@@ -114,6 +114,7 @@ nav > div > i {
     padding-top: 1vw;
     transition: 250ms ease-in-out;
     animation: glow 3.5s ease 0.5s infinite forwards;
+    cursor: pointer;
   }
   /* nav > div > i {
     animation: bounce 1s ease 0.5s infinite forwards;
