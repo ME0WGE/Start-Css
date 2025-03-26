@@ -832,13 +832,13 @@ body {
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
     flex: 1;
-    font-size: 2rem;
+    font-size: 1.5vw;
     font-weight: bold;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
     align-items: center;
-    font-size: 1.5vw;
+    font-size: 1vw;
     gap: 3rem;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) > p > a {
@@ -913,7 +913,7 @@ body {
     margin-right: 13vw;
     margin-left: 13vw;
     gap: 3vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
   }
   /* SECTION 4 */
   section:nth-of-type(4) {
@@ -926,7 +926,7 @@ body {
     margin: 0;
     margin-bottom: 2vw;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
   }
   section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > form {
   }
@@ -945,7 +945,7 @@ body {
     > div:nth-of-type(2)
     > form
     > input {
-    width: 60vw;
+    width: 45vw;
     height: 5vh;
     font-size: 2vw;
     margin-bottom: 2vw;
@@ -977,7 +977,7 @@ body {
     border-right: none;
     border-bottom: 1px solid #1a252e1f;
     margin-bottom: 25px;
-    width: 60vw;
+    width: 45vw;
   }
   /* FOOTER */
   footer {
@@ -1062,7 +1062,7 @@ body {
     height: 8vh;
     display: flex;
     align-items: center;
-    font-size: 0.70vw;
+    font-size: 0.7vw;
   }
   section:nth-of-type(5) > div {
     display: flex;
