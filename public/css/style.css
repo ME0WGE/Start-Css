@@ -54,11 +54,37 @@ nav > div > i {
     display: flex;
     gap: 60vw;
   }
+  @keyframes movement {
+    0% {
+      transform: translate(0);
+    }
+
+    20% {
+      transform: translate(-2px, 2px);
+    }
+
+    40% {
+      transform: translate(-2px, -2px);
+    }
+
+    60% {
+      transform: translate(2px, 2px);
+    }
+
+    80% {
+      transform: translate(2px, -2px);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+  }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
     flex: 1;
     font-size: 3vw;
     font-weight: bold;
+    animation: movement 2s linear 0s infinite normal none;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
@@ -90,36 +116,27 @@ nav > div > i {
       filter: drop-shadow(-10px 10px 10px rgb(162, 0, 255));
     }
   }
-  /* @keyframes bounce {
-    0% {
-      transform: translateY(5px);
-    }
-    25% {
-      transform: translateY(-5px);
-    }
-    50% {
-      transform: translateY(10px);
-      transform: rotateX(45deg);
-    }
-    75% {
-      transform: translateY(-5px);
-      transform: rotateX(45deg);
-    }
-    100% {
-      transform: translateY(5px);
-    }
-  } */
   @keyframes bounce {
     0% {
-      transform: translateY(0px);
+      transform: scale(1, 1) translateY(0);
+    }
+    10% {
+      transform: scale(1.1, 0.9) translateY(0);
+    }
+    30% {
+      transform: scale(0.9, 1.1) translateY(-3vh);
     }
     50% {
-      transform: translateY(-20px);
-      
+      transform: scale(1.05, 0.95) translateY(0);
+    }
+    57% {
+      transform: scale(1, 1) translateY(-7px);
+    }
+    64% {
+      transform: scale(1, 1) translateY(0);
     }
     100% {
-      transform: translateY(-20px);
-      transform: rotateX(45deg);
+      transform: scale(1, 1) translateY(0);
     }
   }
   nav > div > i {
@@ -131,16 +148,15 @@ nav > div > i {
     animation: glow 3.5s ease 0.5s infinite forwards;
     cursor: pointer;
   }
-  /* nav > div > i {
-    animation: bounce 1s ease 0.5s infinite forwards;
-  } */
   nav > div > i:active {
     border: 3px solid #dc3544;
     padding: 2vw;
   }
   nav > div > i:hover {
     transition: 1s ease-in-outs;
-    animation: bounce 1s ease 0.5s infinite forwards;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
   }
   /* 
 |---------------------------------------------------------------|
@@ -386,11 +402,36 @@ nav > div > i {
     display: flex;
     gap: 10vw;
   }
+  @keyframes movement {
+    0% {
+      transform: translate(0);
+    }
+
+    20% {
+      transform: translate(-2px, 2px);
+    }
+
+    40% {
+      transform: translate(-2px, -2px);
+    }
+
+    60% {
+      transform: translate(2px, 2px);
+    }
+
+    80% {
+      transform: translate(2px, -2px);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+  }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
-    /* flex: 1; */
     font-size: 2.5vw;
     font-weight: bold;
+    animation: movement 2s linear 0s infinite normal none;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
@@ -648,11 +689,37 @@ nav > div > i {
     display: flex;
     gap: 10vw;
   }
+  @keyframes movement {
+    0% {
+      transform: translate(0);
+    }
+
+    20% {
+      transform: translate(-2px, 2px);
+    }
+
+    40% {
+      transform: translate(-2px, -2px);
+    }
+
+    60% {
+      transform: translate(2px, 2px);
+    }
+
+    80% {
+      transform: translate(2px, -2px);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+  }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
     flex: 1;
     font-size: 2rem;
     font-weight: bold;
+    animation: movement 2s linear 0s infinite normal none;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
     margin-left: 10vw;
@@ -820,6 +887,9 @@ nav > div > i {
     gap: 1vw;
     justify-content: space-evenly;
   }
+  i:hover {
+    color: #1a252d;
+  }
   i {
     margin-top: 1vw;
     font-size: 2vw;
@@ -907,11 +977,37 @@ nav > div > i {
     gap: 25vw;
     position: absolute;
   }
+  @keyframes movement {
+    0% {
+      transform: translate(0);
+    }
+
+    20% {
+      transform: translate(-2px, 2px);
+    }
+
+    40% {
+      transform: translate(-2px, -2px);
+    }
+
+    60% {
+      transform: translate(2px, 2px);
+    }
+
+    80% {
+      transform: translate(2px, -2px);
+    }
+
+    100% {
+      transform: translate(0);
+    }
+  }
   nav > div:nth-of-type(1) > div:nth-of-type(1) > p {
     padding: 0;
     flex: 1;
     font-size: 1.5vw;
     font-weight: bold;
+    animation: movement 2s linear 0s infinite normal none;
   }
   nav > div:nth-of-type(1) > div:nth-of-type(2) {
     display: flex;
@@ -1040,6 +1136,7 @@ nav > div > i {
     border-radius: 5px;
     color: white;
     font-size: 2vw;
+    cursor: pointer;
   }
   section:nth-of-type(4)
     > div:nth-of-type(1)
@@ -1078,6 +1175,9 @@ nav > div > i {
     display: flex;
     gap: 1vw;
     justify-content: space-evenly;
+  }
+  i:hover {
+    color: #1a252d;
   }
   i {
     margin-top: 1vw;
