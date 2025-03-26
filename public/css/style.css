@@ -50,11 +50,6 @@ nav > div > i {
     color: white;
     justify-content: center;
   }
-  nav > div > i {
-    border: none;
-    font-size: 6vw;
-    visibility: visible;
-  }
   nav > div:nth-of-type(1) {
     display: flex;
     gap: 60vw;
@@ -76,6 +71,15 @@ nav > div > i {
     text-decoration: none;
     color: white;
     display: none;
+  }
+  nav > div > i {
+    border: none;
+    font-size: 6vw;
+    visibility: visible;
+  }
+  nav > div > i:active {
+    border: 3px solid #dc3544;
+    padding: 2vw;
   }
   /* 
 |---------------------------------------------------------------|
