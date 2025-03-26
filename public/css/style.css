@@ -31,6 +31,9 @@ nav > div > i {
   margin: 0;
   padding: 0;
 }
+input[placeholder] {
+  opacity: 50%;
+}
 /* Écrans téléphone */
 @media (width <= 576px) {
   /* 
